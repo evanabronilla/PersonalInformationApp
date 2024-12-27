@@ -1,32 +1,16 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Ignore compiled object files
 *.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Ignore compiled executable files
 *.exe
 *.out
 *.app
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore system files (macOS, Windows, etc.)
+.DS_Store   # macOS
+Thumbs.db   # Windows
